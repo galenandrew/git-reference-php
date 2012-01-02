@@ -1,6 +1,9 @@
----
-layout: reference
----
+<?php 
+//---> Define Globals/Config
+include('config.php');
+
+include(BASE_DIR.'_layouts/header.php'); // Header HTML
+?>
 <div class="box">
   <h2>Introduction to the Git Reference</h2>
   <div class="block">
@@ -110,3 +113,4 @@ layout: reference
 </div>
 
 <p><a href="/creating">On to Getting and Creating Projects &#187;</a></p>
+<?php include(BASE_DIR.'_layouts/footer.php'); // Footer HTML ?>

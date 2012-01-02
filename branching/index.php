@@ -1,6 +1,9 @@
----
-layout: reference
----
+<?php 
+//---> Define Globals/Config
+include('../config.php');
+
+include(BASE_DIR.'_layouts/header.php'); // Header HTML
+?>
 
 <div class="box">
   <h2>
@@ -777,3 +780,4 @@ ab5ab4c added erlang
 
 <p><a href="/remotes">On to Sharing and Updating Projects &#187;</a></p>
 
+<?php include(BASE_DIR.'_layouts/footer.php'); // Footer HTML ?>

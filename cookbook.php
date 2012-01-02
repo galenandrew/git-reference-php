@@ -1,6 +1,9 @@
----
-layout: zh_reference
----
+<?php 
+//---> Define Globals/Config
+include('config.php');
+
+include(BASE_DIR.'_layouts/header.php'); // Header HTML
+?>
 <div class="box">
   <h2>Git Cookbook</h2>
   <ul>
@@ -10,3 +13,4 @@ layout: zh_reference
     <li>Undo a merge</li>
   </ul>
 </div>
+<?php include(BASE_DIR.'_layouts/footer.php'); // Footer HTML ?>

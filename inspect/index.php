@@ -1,6 +1,9 @@
----
-layout: reference
----
+<?php 
+//---> Define Globals/Config
+include('../config.php');
+
+include(BASE_DIR.'_layouts/header.php'); // Header HTML
+?>
 
 <div class="box">
   <h2>
@@ -472,3 +475,4 @@ index bb86f00..192151c 100644
 
 <p>And that's it!  For more information, try reading the
 <a href="http://progit.org">Pro Git book</a>.</p>
+<?php include(BASE_DIR.'_layouts/footer.php'); // Footer HTML ?>

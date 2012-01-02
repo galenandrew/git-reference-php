@@ -1,6 +1,9 @@
----
-layout: reference
----
+<?php 
+//---> Define Globals/Config
+include('../config.php');
+
+include(BASE_DIR.'_layouts/header.php'); // Header HTML
+?>
 
 <div class="box">
   <h2>
@@ -749,3 +752,4 @@ M hello.rb
 
 <p><a href="/branching">On to Branching and Merging &#187;</a></p>
 
+<?php include(BASE_DIR.'_layouts/footer.php'); // Footer HTML ?>

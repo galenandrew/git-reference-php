@@ -23,9 +23,11 @@
 
 			<div class="grid_12">
 				<ul id="menu">
-					<li><a id="menu_home" href="/index.html">Reference</a></li>
-          <!-- <li><a id="menu_cookbook" href="/cookbook.html">Cookbook</a></li> -->
-					<li><a id="menu_about" href="/about.html">About</a></li>
+					<li><a id="menu_home" href="/">Reference</a></li>
+<!-- 
+					<li><a id="menu_cookbook" href="/cookbook.php">Cookbook</a></li>
+ -->
+					<li><a id="menu_about" href="/about.php">About</a></li>
 					<li>&#167;</li>
 					<li><a href="http://github.com/schacon/git-reference">Site Source</a></li>
         </ul>
@@ -82,25 +84,6 @@
             </ul>
           </div>
 
-          <!--
-          <div class="block">
-            <h3><a href="/fixing">Fixing and Changing History</a></h3>
-            <ul>
-              <li><a href="/fixing/rebase.html">rebase</a></li>
-              <li><a href="/fixing/revert.html">revert</a></li>
-              <li><a href="/fixing/checkout.html">checkout</a></li>
-              <li><a href="/fixing/reset.html">reset</a></li>
-              <li><a href="/fixing/cherry-pick.html">cherry-pick</a></li>
-            </ul>
-          </div>
-          -->
 			</div>
 
       <div class="grid_10 home_box" id="content_box">
-        {{ content }}
-      </div>
-
-			<div class="clear"></div>
-		</div>
-  </body>
-</html>

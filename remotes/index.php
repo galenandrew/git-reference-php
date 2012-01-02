@@ -1,6 +1,9 @@
----
-layout: reference
----
+<?php 
+//---> Define Globals/Config
+include('../config.php');
+
+include(BASE_DIR.'_layouts/header.php'); // Header HTML
+?>
 
 <div class="box">
   <h2>
@@ -193,7 +196,7 @@ github	git@github.com:schacon/hw.git (push)
     immediately followed by a <code>git merge</code> of the branch on that remote
     that is tracked by whatever branch you are currently in.  I personally don't much
     like this command - I prefer running <code>fetch</code> and <code>merge</code>
-    separately.  Less magic, less problems.  However, if you like this idea, you
+    seperately.  Less magic, less problems.  However, if you like this idea, you
     can read about it in more detail in the
     <a target="new" href="http://www.kernel.org/pub/software/scm/git/docs/git-pull.html">official docs</a>.
     </p>
@@ -341,3 +344,4 @@ fast-forwards' section of 'git push --help' for details.
 </div>
 
 <p><a href="/inspect">On to Inspection and Comparison &#187;</a></p>
+<?php include(BASE_DIR.'_layouts/footer.php'); // Footer HTML ?>
